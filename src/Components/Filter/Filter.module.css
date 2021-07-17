@@ -1,0 +1,20 @@
+.filter {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.name_input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  outline: none;
+  border: 1px solid cornflowerblue;
+  border-radius: 4px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.name_input:focus {
+  border: 2px solid cornflowerblue;
+}

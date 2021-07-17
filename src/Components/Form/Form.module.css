@@ -1,0 +1,49 @@
+.form {
+  display: inline-flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  padding: 10px;
+
+  border: 2px solid cornflowerblue;
+  border-radius: 10px;
+}
+
+.name {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.name_input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  outline: none;
+  border: 1px solid cornflowerblue;
+  border-radius: 4px;
+}
+
+.name_input:focus {
+  border: 2px solid cornflowerblue;
+}
+
+.btn {
+  width: 150px;
+  margin-right: 10px;
+  padding: 10px;
+
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: green;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
